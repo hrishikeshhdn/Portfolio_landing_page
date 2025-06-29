@@ -1,0 +1,253 @@
+body{
+   /* background: linear-gradient(to bottom,rgba(185,225,235,1),rgba(185,235,0.3));
+*/
+
+}
+ aside {
+    width: 15%;
+    line-height: 10%;
+    max-height: 100;
+    /*line-height: 50;
+    padding-left: 25px;
+    margin-left: .5rem;*/
+    padding-left: 5rem;
+    padding-right: 2rem;
+    
+    float: left;
+    font-style: italic;
+    background-color:rgb(5, 179, 179);
+
+  }
+
+.row{
+      margin:auto;
+ }
+
+/* All Paragraph content are Design here*/
+  h1 {
+
+    color:blue;
+    text-align:center;
+    font-size: 350%;
+  }
+  
+  h1[class=page-name]{
+    
+    animation: color-change 15s infinite alternate;    
+    text-align:center;
+    font-size: 400%;  
+  }
+  @keyframes color-change {
+    0% { color: red;}
+    25%{color:chartreuse} 
+    50% { color: blue; }
+    75%{color:cyan}
+    85%{color: gold;}
+    100% { color: red; }
+  
+}
+/* All Paragraph content are Design here*/
+p{
+      color:lightcyan;
+      text-align:center;
+      font-size: 20x;
+  }
+  
+  p1{
+
+     font-size:large; 
+  }
+  p2
+  {
+      font-size:x-large;
+      color:cyan;
+  }
+  div{
+    /* display: flex;
+    flex-wrap: wrap; */
+    height: 110%;
+  }
+  .left{
+    /* flex: 24%; */
+    /* justify-content: center; */
+    /* padding: 20px; */
+    /* display: block; */
+    background-color: rgb(26, 23, 23);
+    min-height: inherit;
+    width: 24%;
+    float: left;
+    position: fixed;
+    /* position: relative; */
+  }
+    
+  .imgDp{
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(78, 10, 10);
+    border-radius: 20%;
+    display: block;
+    margin: 55px auto;
+  
+  }
+  .impgdp{
+      width:150px;
+      height:150px;
+      border: 1px solid rgb(78, 10, 10);
+      border-radius: 20%;
+        
+  }
+  .imgpd{
+      width:30px;
+      height:30px;
+
+  }
+  .navIcons{
+    color: white;
+    font-size: 30px;
+    display: table;
+    margin: 0 auto;
+    transform: translateX(40%);
+    position: absolute;
+    bottom: 15%;
+  padding-left: 10%;
+  }
+  .navIcons a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+  }
+  .navIcons i{
+    margin: 30px 5px;
+  }
+  
+  .right{
+    /* flex: 74%; */
+  
+    /* padding: 20px; */
+    width: 64%;
+    position: absolute;
+    left: 28%;
+    /* left: 12% */
+  }
+  
+  .right p1{
+    text-align: center;
+    font-family: 'chartreuse', cursive;
+    font-size: 22px;
+  }
+  
+  .right h2{
+    padding-top: 60px;
+    color: deepskyblue;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+  }
+  .skText li:last-child{
+    border: none;
+  }
+  .skText l{
+    float: right;
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .icons{
+    display: table;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align:center;
+    widht=50px;
+    height:30px;
+    padding-right:6px;
+    display:inline-block;
+  }
+.eduDiv div{
+  align-self: baseline;
+  margin-right: 25px;
+  display: inline-block;
+  margin:auto;
+}
+  
+  .eduDiv li{
+    margin: 10px 0;
+    font-size: 16px;
+    color: black;
+  }
+  .eduDiv div ul{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 20px;
+    /* color: black; */
+  }
+  
+/* Nagivate */  
+  .navigate a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: .5s;
+  }
+  .navigate a:hover{
+    color: skyblue;
+    font-size: 20px;
+  }
+  .navigate li{
+    margin: 16px 0;
+  }
+  
+  
+  .email{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .emailimg{
+    color: white;
+    background-color: skyblue;
+    text-align: center;
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    /* animation: emAni 1s infinite;
+    animation-play-state: paused; */
+  }
+  .emailHide{
+    color: black;
+    display: inline-block;
+    margin: 0 0 4px 5px;
+    transition: 1s;
+    /* text-align: center; */
+  }
+  
+  .phone{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .phoneimg{
+    color: white;
+    background-color: skyblue;
+    text-align: center;
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .phoneHide{
+    color: black;
+    display: inline-block;
+    margin: 0 0 4px 5px;
+    transition: 1s;
+    /* background-color: skyblue; */
+  }
+  .phoneHide:hover{
+    color: #2CEC47 ;
+  }
+  a{
+    text-decoration: none;
+  }
+  .emailHide:hover{
+    color: #E73F58 ;
+  }
+  
